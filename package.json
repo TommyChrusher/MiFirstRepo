@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nodemon run endpoint.js",
-    "start": "node endpoint.js"
+    "test": "nodemon run ./src/endpoint.js",
+    "start": "node ./src/endpoint.js"
   },
   "author": "Julián Gordillo",
   "license": "ISC",

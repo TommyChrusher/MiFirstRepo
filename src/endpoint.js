@@ -1,5 +1,7 @@
 import express, { json } from 'express';
 import { pool } from './DataBase/db_conection.js';
+import dotenv from 'dotenv';
+dotenv.config();
 
 ////Creación de la app con express
 const app = express();
@@ -85,7 +87,7 @@ app.get("/test", (req,res) =>{
     res.send(req.ip)
 })
 
-const PORT = 3000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
     console.log("Servidor iniciado en el puerto 3000")
 })

@@ -1,4 +1,4 @@
-import {pool} from "./DataBase/db_conection.js";
+import {pool} from "./src/DataBase/db_conection.js";
 
 const getProducts=async()=>{
     try{
