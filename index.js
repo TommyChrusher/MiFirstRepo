@@ -8,5 +8,6 @@ const getProducts=async()=>{
         console.error(error)
     }
 };
+console.log("Hello")
 
 getProducts();
