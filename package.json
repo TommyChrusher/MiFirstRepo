@@ -1,0 +1,19 @@
+{
+  "name": "primera-api-con-postgres-sql",
+  "version": "0.0.1",
+  "description": "Mi primera app backen usando postgres sql",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon run endpoint.js",
+    "start": "node endpoint.js"
+  },
+  "author": "Julián Gordillo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.3"
+  }
+}
